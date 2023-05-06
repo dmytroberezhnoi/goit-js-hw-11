@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -9,10 +10,18 @@
 
 .header {
   padding: 10px;
-  background-color: #4056b4;
+  background: linear-gradient(to right, #d0e3ea, #2196f3);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0px;
   width: 100%;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+
+  height: 60px;
 }
 
 .search-form {
